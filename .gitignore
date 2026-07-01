@@ -1,0 +1,34 @@
+# Object files
+*.o
+*.obj
+
+# Executables
+*.out
+*.exe
+*.elf
+
+# Static and shared libraries
+*.a
+*.so
+*.dll
+
+# Build directories
+build/
+bin/
+
+# Debug files
+*.dSYM/
+*.gdb_history
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Vim swap files
+*.swp
+
+# macOS
+.DS_Store
