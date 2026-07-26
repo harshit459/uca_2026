@@ -35,3 +35,15 @@ cmake-build-*/
 
 #java
 *.class
+
+# Ignore everything in week_2_assign
+week_2_assign/*
+
+# Keep C source files
+!week_2_assign/*.c
+
+# Ignore everything in week_3_assign/programming
+week_3_assign/programming/*
+
+# Keep C source files
+!week_3_assign/programming/*.c
