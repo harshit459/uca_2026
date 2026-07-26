@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Web Worker Example</title>
+    <title>Fetch Users</title>
 </head>
 <body>
 
-<h2>Open the Console (F12)</h2>
+<h2>Open the Console</h2>
 
-<script>
-    var worker = new Worker("worker.js");
-
-    worker.onmessage = function(event) {
-        console.log(event.data);
-    };
-
-    worker.onerror = function() {
-        console.log("Worker Error");
-    };
-</script>
-
+<script src="worker.js"></script>
+<script src="main.js"></script> 
 </body>
 </html>
