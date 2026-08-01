@@ -7,12 +7,7 @@ int fitBits(int num, int bits) {
 
 	tempNum = ((num << shift)) >> shift;
 
-	if((tempNum ^ num) == 0) {
-		return 1;
-	}
-	else {
-		return 0;
-	}
+	return !(tempNum ^ num);
 }
 
 int main() {
